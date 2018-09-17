@@ -28,9 +28,9 @@ public abstract class MenuNetResponseListener<D extends BaseData,S extends SendD
     @Override
     public void onResponseSuccess(NetResponse<D> response) {
         action.data = response.getData();
-        onActionSuccess(action);
         action.setMessage(response.getMessage());
         action.setCode(response.getCode());
+        onActionSuccess(action);
         presenter.getMvpView().onActionSuccess(action);
     }
 
