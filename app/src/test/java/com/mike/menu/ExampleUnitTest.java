@@ -16,10 +16,13 @@ public class ExampleUnitTest {
     @Test
     public void addition_isCorrect() {
         //assertEquals(4, 2 + 2);
-        int [] arr={75,85,9,34,6,3,15};
+        int [] arr={75,85,9,899,34,6,100,3,15};
         AlgorithmCase algorithmCase=new AlgorithmCase();
         //algorithmCase.swap(arr,1,2);
-        algorithmCase.selectSort(arr);
+        //algorithmCase.selectSort(arr);
+        //algorithmCase.bubbleSort(arr);
+        algorithmCase.directInsertSort(arr);
+        //algorithmCase.moveBack();
         System.out.println(new Gson().toJson(arr));
     }
 }

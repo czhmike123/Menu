@@ -19,5 +19,5 @@ public interface MainView extends BaseMvpView {
 
     void onGetMenuTypeSuccess(Action<MenuType,MenuType.Send> action);
 
-    void onRegistSuccess(Action<User,User.Send> action);
+    void onRegisterSuccess(Action<User,User.Send> action);
 }

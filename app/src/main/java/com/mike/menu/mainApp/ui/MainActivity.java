@@ -97,7 +97,7 @@ public class MainActivity extends BaseActivity<MainView, MainPresenter> implemen
     }
 
     @Override
-    public void onRegistSuccess(Action<User,User.Send> action) {
+    public void onRegisterSuccess(Action<User,User.Send> action) {
         log.d(action.getData().username);
     }
 

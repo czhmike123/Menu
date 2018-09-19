@@ -47,7 +47,7 @@ public class MainPresenter extends MenuBasePresenter<MainView> {
                     return;
                 }
                 log.d(action.getData().username);
-                getMvpView().onRegistSuccess(action);
+                getMvpView().onRegisterSuccess(action);
             }
         });
     }
