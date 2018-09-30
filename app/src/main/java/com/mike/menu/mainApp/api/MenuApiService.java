@@ -20,7 +20,8 @@ import rx.Observable;
  */
 public interface MenuApiService{
 
-    String BASE_URL="http://caipu.market.alicloudapi.com/";
+    //String BASE_URL="http://caipu.market.alicloudapi.com/";
+    String BASE_URL="http://toutiao-ali.juheapi.com/toutiao/index";
     String AUTHORIZATION_APPCODE="Authorization:APPCODE 059fbae46c294b3ba8682995adf2b655";
 
 //    cpName	STRING	可选	菜谱名称
